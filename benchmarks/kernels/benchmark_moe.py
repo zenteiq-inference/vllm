@@ -883,6 +883,7 @@ def get_model_params(config):
     elif architecture in (
         "BailingMoeV3ForCausalLM",
         "BeamForCausalLM",
+        "DhirMoeForCausalLM",
         "Qwen2MoeForCausalLM",
         "Qwen3MoeForCausalLM",
         "Qwen3NextForCausalLM",
